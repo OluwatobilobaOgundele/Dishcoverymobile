@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Favourites = () => {
+const Home = () => {
   return (
     <View>
-      <Text>Favourites</Text>
+      <Text>Home</Text>
     </View>
   )
-}
+};
 
-export default Favourites
+export default Home;

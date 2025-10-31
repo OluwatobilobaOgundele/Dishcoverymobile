@@ -1,10 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function id() {
+const Profile = () => {
   return (
     <View>
-      <Text>dsfg</Text>
+      <Text>Profile</Text>
     </View>
   )
-}
+};
+
+export default Profile;

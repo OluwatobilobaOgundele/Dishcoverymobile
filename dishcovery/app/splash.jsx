@@ -1,4 +1,4 @@
-import { View, Image, Text, ActivityIndicator } from "react-native"
+import { View, Image, Text,} from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
 
 export default function SplashScreen() {
@@ -34,8 +34,6 @@ export default function SplashScreen() {
         >
           Dishcovery
         </Text>
-
-        <ActivityIndicator size="small" color="#FF4C4C" style={{ marginTop: 20 }} />
       </View>
     </SafeAreaView>
   )

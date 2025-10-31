@@ -42,7 +42,7 @@ const SignInScreen = () => {
           <Text style={AuthStyles.forgotLink}>Forgot Password?</Text>
         </TouchableOpacity>
         <View style={AuthStyles.buttonContainer}>
-          <AuthButton title="Log In" onPress={() => {}} />
+          <AuthButton title="Log In" onPress={() => router.replace("/(tabs)/home")} />
           <AuthButton title="Continue with Google" type="google" onPress={() => {}} />
         </View>
 

@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router';
-import { Home, Search, Heart, Plus } from '@expo/vector-icons';
+import { Feather } from '@expo/vector-icons';
 
 export default function TabLayout() {
   return (
@@ -22,33 +22,33 @@ export default function TabLayout() {
         },
       }}>
       <Tabs.Screen
-        name="index"
+        name="home"
         options={{
           title: 'Home',
-          tabBarIcon: ({ size, color }) => <Home size={size} color={color} />,
+          tabBarIcon: ({ size, color }) => <Feather name="home" size={size} color={color} />,
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="discover"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ size, color }) => <Search size={size} color={color} />,
+          title: 'Discover',
+          tabBarIcon: ({ size, color }) => <Feather name="search" size={size} color={color} />,
         }}
       />
       <Tabs.Screen
-        name="favorites"
+        name="add"
         options={{
-          title: 'Favorites',
-          tabBarIcon: ({ size, color }) => <Heart size={size} color={color} />,
+          title: 'Add',
+          tabBarIcon: ({ size, color }) => <Feather name="plus" size={size} color={color} />,
         }}
       />
       <Tabs.Screen
-        name="upload"
+        name="profile"
         options={{
-          title: 'Upload',
-          tabBarIcon: ({ size, color }) => <Plus size={size} color={color} />,
+          title: 'Profile',
+          tabBarIcon: ({ size, color }) => <Feather name="user" size={size} color={color} />,
         }}
       />
     </Tabs>
   );
-}
+};

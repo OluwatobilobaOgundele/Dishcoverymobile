@@ -69,7 +69,7 @@ import { COLORS, SIZES } from "../../theme/theme";
     top: -30,
   },
 
-})
+});
 
 
 export default AuthStyles;
